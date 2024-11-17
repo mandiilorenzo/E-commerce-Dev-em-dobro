@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    color: var(--white-color);
+}
+
+body {
+    background-color: var(--dark-color);
+    font-family: var(--primary-font);
+}

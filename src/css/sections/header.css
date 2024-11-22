@@ -4,7 +4,7 @@
     align-items: center;
     gap: 40px;
     height: 15vh;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--primary-purple-color);
 }
 
 .header .menu {
@@ -24,12 +24,11 @@
     color: var(--white-color);
     font-size: 1.6rem;
     font-weight: 500;
-    letter-spacing: 1px;
 }
 
 .header .menu .btn-login {
     border-radius: 4px;
-    background-color: var(--primary-color);
+    background-color: var(--primary-purple-color);
     padding: 16px 32px;
     width: 253px;
     height: 52px;
@@ -47,6 +46,5 @@
     color: var(--white-color);
     font-size: 1.6rem;
     font-weight: 500;
-    letter-spacing: 1px;
 }
 

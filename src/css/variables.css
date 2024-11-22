@@ -1,9 +1,10 @@
 :root {
     --dark-color: #000000;
     --white-color: #ffffff; 
-    --primary-color: #6528D3;
-    --secondary-color: #6BB27C;
-    --thirdy-color: #EDEDED;
+    --primary-purple-color: #6528D3;
+    --primary-green-color: #6BB27C;
+    --gray-color: #EDEDED;
+    --second-purple-color: #130234;
 }
 
 :root {

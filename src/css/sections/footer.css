@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--second-purple-color);
+    padding: 57px 375px;
+}
+
+.footer .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-footer .info-institucional, .info-ajuda, .info-endereco {
+    flex: 1;
+}
+
+.container-footer h3 {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+.container-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.container-footer ul a {
+    color: var(--primary-purple-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.container-footer .info-endereco p {
+    font-size: 1.6rem;
+    color: var(--primary-purple-color);
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+

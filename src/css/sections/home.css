@@ -3,13 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     padding-top: 40px;
 }
 
 .home .container h1 {
     font-size: 2.4rem;
     font-weight: 500;
+    align-self: flex-start;
+    padding-left: 175px;
+    padding-bottom: 20px;
 }
 
 .home .container .container-produtos {
@@ -17,6 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .home .container .container-produtos .produto {

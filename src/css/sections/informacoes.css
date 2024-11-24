@@ -6,36 +6,40 @@
 .informacoes .container-informacoes {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-.container-informacoes .info-institucional, .info-ajuda, .info-endereco {
+.container-informacoes .info-institucional,
+.info-ajuda,
+.info-endereco {
     flex: 1;
 }
 
 .container-informacoes h3 {
     font-size: 2.0rem;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .container-informacoes ul {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding-top: 10px;
+    text-align: start;
+    padding: 5px 0;
 }
 
-.container-informacoes ul a {
+.container-informacoes ul li,
+.container-informacoes .info-endereco p {
+    padding: 5px 0;
+}
+
+.container-informacoes ul a,
+.container-informacoes .info-endereco p a {
     color: var(--primary-purple-color);
     font-size: 1.6rem;
     font-weight: 500;
 }
 
 .container-informacoes .info-endereco p {
+    text-align: start;
     font-size: 1.6rem;
     color: var(--primary-purple-color);
     font-weight: 500;
-    padding: 10px 0;
 }
-
-

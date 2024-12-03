@@ -1,10 +1,10 @@
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    max-width: 1155px;
+    margin: 0 auto;
     height: 15vh;
-    border-bottom: 1px solid var(--primary-purple-color);
 }
 
 .header .menu {
@@ -26,25 +26,28 @@
     font-weight: 500;
 }
 
-.header .menu .btn-login {
+.header .cadastro-compras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .cadastro-compras .btn-login {
+    border-radius: 4px;
+    background-color: var(--primary-purple-color);
+    padding: 16px 32px;
+    color: var(--white-color);
+    font-size: 1.6rem;
+}
+
+.header .cadastro-compras a {
     border-radius: 4px;
     background-color: var(--primary-purple-color);
     padding: 16px 32px;
     width: 253px;
-    height: 52px;
     position: relative;
-}
-
-.header .menu .btn-login:before {
-    content: url(../../images/Ícone_carrinho.png);
-    position: absolute;
-    right: -50px;
-    top: 10px;
-}
-
-.header .menu .btn-login a {
+    font-size: 16px;
     color: var(--white-color);
-    font-size: 1.6rem;
     font-weight: 500;
 }
-

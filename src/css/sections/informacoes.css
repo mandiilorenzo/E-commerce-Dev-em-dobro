@@ -1,17 +1,20 @@
 .informacoes {
     background-color: var(--second-purple-color);
-    padding: 57px 375px;
+    padding-block: 57px;
 }
 
 .informacoes .container-informacoes {
     display: flex;
     justify-content: space-between;
+    max-width: 1155px;
+    margin: 0 auto;
 }
 
 .container-informacoes .info-institucional,
 .info-ajuda,
 .info-endereco {
     flex: 1;
+    padding-right: 20px;
 }
 
 .container-informacoes h3 {

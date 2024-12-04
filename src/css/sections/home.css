@@ -25,12 +25,15 @@
 .home .container-produtos .produto {
     background-color: var(--second-purple-color);
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .home .container-produtos .produto img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    max-width: 100%;
+    height: 334px;
+    width: 370px;
 }
 
 .home .container .container-produtos .produto .info-produto {

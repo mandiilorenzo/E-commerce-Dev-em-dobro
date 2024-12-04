@@ -1,0 +1,52 @@
+@media(max-width: 900px) {
+    .header {
+        padding: 30px;
+    }
+    
+    .header .menu-hamburguer-mobile {
+        display: block;
+    }
+
+    .header .menu-mobile .menu-hamburguer {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        display: none;
+        border-radius: 20px;
+    }
+
+    .header nav li a {
+        text-align: center;
+        padding: 20px;
+        display: none;
+    }
+
+    .header .btn-login {
+        display: none;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .home .container .container-produtos {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 900px) {
+    .informacoes .container-informacoes {
+        flex-direction: column;
+        padding-right: 5px;
+    }
+}
+
+@media(max-width: 900px) {
+    .footer {
+        padding: 20px 80px;
+    }
+}

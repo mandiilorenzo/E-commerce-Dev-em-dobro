@@ -25,6 +25,16 @@
 
 <body>
     <header class="header">
+        <div class="menu-mobile">
+            <input id="menu-hamburguer" type="checkbox" />
+
+            <label for="menu-hamburguer">
+                <div class="menu-hamburguer-mobile">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+        </div>
+
         <img class="img-logo" src="./src/images/logo.png" alt="logo Dev em Dobro">
 
         <nav class="menu">
@@ -38,6 +48,10 @@
         </nav>
 
         <div class="cadastro-compras">
+            <picture>
+                <source media="(max-width: 900px)" srcset="./src/images/ícone_usuário.png" />
+            </picture>
+
             <a href="#" class="btn-login">
                 Entrar ou Cadastrar-se</a>
             </a>

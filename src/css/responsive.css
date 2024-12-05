@@ -1,8 +1,15 @@
-@media(max-width: 900px) {
+@media(max-width: 1101px) {
     .header {
-        padding: 30px;
+        padding: 0 20px;
     }
-    
+
+    .header .menu-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
     .header .menu-hamburguer-mobile {
         display: block;
     }
@@ -29,12 +36,26 @@
         display: none;
     }
 
+    .header .cadastro-compras .icone-mobile {
+        display: block;
+        border-right: 1px solid var(--primary-purple-color);
+        padding-right: 20px;
+    }
+
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1101px) {
+    .home .container .container-produtos {
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline: 10px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 841px) {
     .home .container .container-produtos {
         grid-template-columns: 1fr;
-        padding: 10px;
+        padding-bottom: 50px;
     }
 }
 
